@@ -1,0 +1,399 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/dell/ontologies/2022/5/esg#"
+     xml:base="http://www.semanticweb.org/dell/ontologies/2022/5/esg"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://try1"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://try1#hasAim -->
+
+    <owl:DatatypeProperty rdf:about="http://try1#hasAim"/>
+    
+
+
+    <!-- http://try1#hasDisposed -->
+
+    <owl:DatatypeProperty rdf:about="http://try1#hasDisposed">
+        <rdfs:domain rdf:resource="http://try1#Wastewater"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://try1#hasRecycled -->
+
+    <owl:DatatypeProperty rdf:about="http://try1#hasRecycled">
+        <rdfs:domain rdf:resource="http://try1#Wastewater"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://try1#hasRecycledDate -->
+
+    <owl:DatatypeProperty rdf:about="http://try1#hasRecycledDate">
+        <rdfs:domain rdf:resource="http://try1#Wastewater"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://try1#hasReduced -->
+
+    <owl:DatatypeProperty rdf:about="http://try1#hasReduced">
+        <rdfs:domain rdf:resource="http://try1#Ground"/>
+        <rdfs:domain rdf:resource="http://try1#Scope1"/>
+        <rdfs:domain rdf:resource="http://try1#Scope2"/>
+        <rdfs:domain rdf:resource="http://try1#Scope3"/>
+        <rdfs:domain rdf:resource="http://try1#Surface"/>
+        <rdfs:domain rdf:resource="http://try1#Wastewater"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://try1#hasReducedDate -->
+
+    <owl:DatatypeProperty rdf:about="http://try1#hasReducedDate">
+        <rdfs:domain rdf:resource="http://try1#Ground"/>
+        <rdfs:domain rdf:resource="http://try1#Scope1"/>
+        <rdfs:domain rdf:resource="http://try1#Scope2"/>
+        <rdfs:domain rdf:resource="http://try1#Scope3"/>
+        <rdfs:domain rdf:resource="http://try1#Surface"/>
+        <rdfs:domain rdf:resource="http://try1#Wastewater"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://try1#hasUsed -->
+
+    <owl:DatatypeProperty rdf:about="http://try1#hasUsed">
+        <rdfs:domain rdf:resource="http://try1#Ground"/>
+        <rdfs:domain rdf:resource="http://try1#Surface"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://try1#Access_And_Affordability -->
+
+    <owl:Class rdf:about="http://try1#Access_And_Affordability">
+        <rdfs:subClassOf rdf:resource="http://try1#Governance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Air_Quality -->
+
+    <owl:Class rdf:about="http://try1#Air_Quality">
+        <rdfs:subClassOf rdf:resource="http://try1#Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Business_Ethics -->
+
+    <owl:Class rdf:about="http://try1#Business_Ethics">
+        <rdfs:subClassOf rdf:resource="http://try1#Governance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Business_Model_Resilience -->
+
+    <owl:Class rdf:about="http://try1#Business_Model_Resilience">
+        <rdfs:subClassOf rdf:resource="http://try1#Governance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Company -->
+
+    <owl:Class rdf:about="http://try1#Company"/>
+    
+
+
+    <!-- http://try1#Competitive_Behavior -->
+
+    <owl:Class rdf:about="http://try1#Competitive_Behavior">
+        <rdfs:subClassOf rdf:resource="http://try1#Governance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Critical_Incident_Risk_Management -->
+
+    <owl:Class rdf:about="http://try1#Critical_Incident_Risk_Management">
+        <rdfs:subClassOf rdf:resource="http://try1#Governance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Customer_Privacy -->
+
+    <owl:Class rdf:about="http://try1#Customer_Privacy">
+        <rdfs:subClassOf rdf:resource="http://try1#Governance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Data_Security -->
+
+    <owl:Class rdf:about="http://try1#Data_Security">
+        <rdfs:subClassOf rdf:resource="http://try1#Governance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Director_Removal -->
+
+    <owl:Class rdf:about="http://try1#Director_Removal">
+        <rdfs:subClassOf rdf:resource="http://try1#Governance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Ecological_Impacts -->
+
+    <owl:Class rdf:about="http://try1#Ecological_Impacts">
+        <rdfs:subClassOf rdf:resource="http://try1#Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Employee_Engagement_Inclusion_And_Diversity -->
+
+    <owl:Class rdf:about="http://try1#Employee_Engagement_Inclusion_And_Diversity">
+        <rdfs:subClassOf rdf:resource="http://try1#Social"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Employee_Health_And_Safety -->
+
+    <owl:Class rdf:about="http://try1#Employee_Health_And_Safety">
+        <rdfs:subClassOf rdf:resource="http://try1#Social"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Energy_Management -->
+
+    <owl:Class rdf:about="http://try1#Energy_Management">
+        <rdfs:subClassOf rdf:resource="http://try1#Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Environment -->
+
+    <owl:Class rdf:about="http://try1#Environment"/>
+    
+
+
+    <!-- http://try1#GHG_Emissions -->
+
+    <owl:Class rdf:about="http://try1#GHG_Emissions">
+        <rdfs:subClassOf rdf:resource="http://try1#Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Governance -->
+
+    <owl:Class rdf:about="http://try1#Governance"/>
+    
+
+
+    <!-- http://try1#Ground -->
+
+    <owl:Class rdf:about="http://try1#Ground">
+        <rdfs:subClassOf rdf:resource="http://try1#Water_And_Wastewater_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Human_Rights_And_Community_Relations -->
+
+    <owl:Class rdf:about="http://try1#Human_Rights_And_Community_Relations">
+        <rdfs:subClassOf rdf:resource="http://try1#Social"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Labor_Practices -->
+
+    <owl:Class rdf:about="http://try1#Labor_Practices">
+        <rdfs:subClassOf rdf:resource="http://try1#Social"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Management_Of_Legal_And_Regulatory_Framework -->
+
+    <owl:Class rdf:about="http://try1#Management_Of_Legal_And_Regulatory_Framework">
+        <rdfs:subClassOf rdf:resource="http://try1#Governance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Physical_Impacts_Of_Climate_Change -->
+
+    <owl:Class rdf:about="http://try1#Physical_Impacts_Of_Climate_Change">
+        <rdfs:subClassOf rdf:resource="http://try1#Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Product_Design_And_Lifecycle_Management -->
+
+    <owl:Class rdf:about="http://try1#Product_Design_And_Lifecycle_Management">
+        <rdfs:subClassOf rdf:resource="http://try1#Governance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Product_Quality_And_Safety -->
+
+    <owl:Class rdf:about="http://try1#Product_Quality_And_Safety">
+        <rdfs:subClassOf rdf:resource="http://try1#Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Scope1 -->
+
+    <owl:Class rdf:about="http://try1#Scope1">
+        <rdfs:subClassOf rdf:resource="http://try1#GHG_Emissions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Scope2 -->
+
+    <owl:Class rdf:about="http://try1#Scope2">
+        <rdfs:subClassOf rdf:resource="http://try1#GHG_Emissions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Scope3 -->
+
+    <owl:Class rdf:about="http://try1#Scope3">
+        <rdfs:subClassOf rdf:resource="http://try1#GHG_Emissions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Selling_Practices_And_Product_Labeling -->
+
+    <owl:Class rdf:about="http://try1#Selling_Practices_And_Product_Labeling">
+        <rdfs:subClassOf rdf:resource="http://try1#Governance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Social -->
+
+    <owl:Class rdf:about="http://try1#Social"/>
+    
+
+
+    <!-- http://try1#Supply_Chain_Management -->
+
+    <owl:Class rdf:about="http://try1#Supply_Chain_Management">
+        <rdfs:subClassOf rdf:resource="http://try1#Governance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Surface -->
+
+    <owl:Class rdf:about="http://try1#Surface">
+        <rdfs:subClassOf rdf:resource="http://try1#Water_And_Wastewater_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Systemic_Risk_Management -->
+
+    <owl:Class rdf:about="http://try1#Systemic_Risk_Management">
+        <rdfs:subClassOf rdf:resource="http://try1#Governance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Waste_And_Hazardous_Materials_Management -->
+
+    <owl:Class rdf:about="http://try1#Waste_And_Hazardous_Materials_Management">
+        <rdfs:subClassOf rdf:resource="http://try1#Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Wastewater -->
+
+    <owl:Class rdf:about="http://try1#Wastewater">
+        <rdfs:subClassOf rdf:resource="http://try1#Water_And_Wastewater_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://try1#Water_And_Wastewater_Management -->
+
+    <owl:Class rdf:about="http://try1#Water_And_Wastewater_Management">
+        <rdfs:subClassOf rdf:resource="http://try1#Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://try1#Ground"/>
+            <rdf:Description rdf:about="http://try1#Surface"/>
+            <rdf:Description rdf:about="http://try1#Wastewater"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
