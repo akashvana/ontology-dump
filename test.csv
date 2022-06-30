@@ -1,0 +1,15 @@
+,sentence,class_num,class_name,arg0,relation,arg1,arg2
+0,"Carbon emissions are down by 20%
+",25,GHG_Emissions,None,are,Carbon emissions,down by 20 %
+0,"Socgen reduced Carbon footprint in 2018.
+",25,GHG_Emissions,Socgen,reduced,Carbon footprint,None
+0,"Gender diversity is maintained in Socgen. 
+",8,Employee_Engagement_Inclusion_And_Diversity,None,is,None,None
+1,"Gender diversity is maintained in Socgen. 
+",8,Employee_Engagement_Inclusion_And_Diversity,None,maintained,Gender diversity,None
+0,"Socgen is taking steps to counter water pollution.
+",20,Water_And_Wastewater_Management,None,is,None,None
+1,"Socgen is taking steps to counter water pollution.
+",20,Water_And_Wastewater_Management,Socgen,taking,steps to counter water pollution,None
+2,"Socgen is taking steps to counter water pollution.
+",20,Water_And_Wastewater_Management,Socgen,counter,water pollution,None
